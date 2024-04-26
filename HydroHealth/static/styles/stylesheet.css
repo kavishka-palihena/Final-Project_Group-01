@@ -1,0 +1,188 @@
+.button {
+    background-color: #093d4d; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+#nav-bar
+{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.container-fluid {
+  color: white;
+}
+
+.navbar-brand img
+{
+  height: 40px
+  padding-left: 20px
+}
+
+#banner
+{
+  background-image: linear-gradient(to right, #056779,#ffffff);
+  color:#ffffff;
+  padding-top: 5%;
+}
+
+#team {
+  background-image: linear-gradient(to bottom, #056779,#000000);
+  color:#ffffff;
+  padding-top: 5%;
+}
+
+.image-fluid {
+  width: 470px;
+  padding-left: 5%;
+}
+
+.predict-button {
+  width: 100px;
+  margin: 20px
+}
+
+.predict-button {
+  padding: 10px 20px;
+  background-color: #062536; /* Green background */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+
+}
+
+.predict-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+
+.bottom-img
+{
+  width: 100%;
+}
+
+/*-------------project phase---------*/
+
+#project {
+  padding:80px 0
+}
+
+.proj-img {
+  width:200px;
+  margin-top: 20px;
+}
+
+.project {
+  padding: 50px;
+}
+
+.project h4 {
+  padding: 5px;
+  margin-top: 25px;
+}
+
+#content {
+  background-image:url('images/bg.jpg');
+  font-family: verdana;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: loadtransition 2s;
+}
+
+.title {
+  padding: 50px;
+}
+.title::before {
+  content: '';
+  background: #056779;
+  height: 10px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.footer-image {
+  width:100%;
+}
+
+.footer-box {
+  padding: 50px;
+}
+
+.para {
+  padding-top: 15px;
+  font-size: 20px;
+  color: #073042;
+}
+
+.btn1 {
+  box-shadow:none;
+  padding: 8px 25px;
+  border-radius: 20px;
+  background-image: linear-gradient(to bottom, #ffffff,#9acff3);
+}
+
+.aboutpara {
+  padding: 25px;
+  padding-right: 25px;
+  line-height: 2.5;
+  color:#000000;
+}
+
+.Aboutsection {
+
+     display: inline-block;
+     width: 40%;
+     color: rgb(51, 15, 15);
+     margin: 7em 30em;
+     font-size: 20px;
+     font-family: cursive;
+     background-color: rgba(255,255,255,0.7);
+     padding: 15px;
+     border-radius: 15px;
+     transition: all 1s;
+}
+
+.content_tit {
+  padding-top: 50px;
+}
+
+.aboutusmenu {
+
+  display: inline-block;
+  width: 75%;
+  color: rgb(51, 15, 15);
+  margin: 7em 12.5em;
+  font-size: 20px;
+  font-family: cursive;
+  background-color: rgba(255,255,255,0.7);
+  padding: 5px;
+  border-radius: 15px;
+  transition: all 1s;
+}
+
+.num {
+  font-size: 100px;
+  color: #9acff3;
+}
+
+#ABOUT {
+  background-image:url('images/banner.jpg');
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding Water Quality Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            line-height: 2;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        .highlight {
+            background-color: #07fff3;
+            padding: 5px 8px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        ol {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .note {
+            background-color: #d7e7f8;
+            color: #1c6172;
+            border: 1px solid #c6daf5;
+            border-radius: 4px;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #666;
+            font-size: 14px;
+        }
+        .footer a {
+            color: #007bff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .footer a:hover {
+            color: #0056b3;
+        }
+        .icon {
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+          <div class="container-fluid">
+            <a class="navbar-brand"><img src="static/styles/images/logo.jpg" height="50"></a>
+            <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;">
+              <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto" >
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/AboutUs">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/datades">Data</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#footer">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+  </section>
+    <div class="container">
+        <h1>Quality Characteristics of Water</h1>
+        <p>Ensuring access to clean and safe drinking water is essential for human health and well-being. Let's explore the key parameters that define water quality:</p>
+        <ol>
+            <li><span class="highlight">pH value:</span> Indicates the acidity or alkalinity level of water. The optimal range recommended by WHO is 6.5 - 8.5.</li>
+            <li><span class="highlight">Hardness:</span> Measures the presence of calcium and magnesium salts in water. Excessive hardness can lead to scale buildup in pipes and appliances.</li>
+            <li><span class="highlight">Solids (Total dissolved solids - TDS):</span> Reflects the mineral content dissolved in water. Higher TDS levels may affect taste, odor, and appearance.</li>
+            <li><span class="highlight">Chloramines:</span> Common disinfectants used in water treatment to eliminate harmful pathogens and maintain water quality.</li>
+            <li><span class="highlight">Sulfate:</span> Naturally occurring substances found in minerals. Elevated sulfate levels may indicate contamination from industrial or agricultural activities.</li>
+            <li><span class="highlight">Conductivity:</span> Measures water's ability to conduct electricity. Elevated conductivity may suggest increased mineral content or pollution.</li>
+            <li><span class="highlight">Organic carbon:</span> Indicates the presence of organic compounds in water, which can impact odor, taste, and color.</li>
+            <li><span class="highlight">Trihalomethanes:</span> Chemicals formed during water chlorination. Prolonged exposure to high levels may pose health risks, including cancer.</li>
+            <li><span class="highlight">Turbidity:</span> Measures the clarity of water by assessing suspended solids. Higher turbidity levels may indicate contamination from sediment, algae, or other particles.</li>
+            <li><span class="highlight">Potability:</span> Determines if water is safe for consumption. Always adhere to safety guidelines and regulatory standards.</li>
+        </ol>
+        <p class="note">Please note: Regular monitoring and adherence to water quality standards are essential for ensuring public health and safety.</p>
+    </div>
+    <div class="footer">
+        <p>Learn more about water potability dataset <a href="data/water_potability.csv" target="_blank"><i class="icon fas fa-external-link-alt"></i>water_potability.csv</a></p>
+    </div>
+</body>
+</html>
